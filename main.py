@@ -55,3 +55,28 @@
 # print(y)
 # print(y.dtype)
 
+import numpy as np
+
+a = np.random.randn(10)
+# b = np.random.randn(10)
+#
+# print(a)
+# print(b)
+#
+# c = a + b
+# print(c)
+# c *= 2
+# print(c)
+
+# # Inverse array
+print(a)
+inverse = 1 / a
+
+print(inverse)
+
+# # True false return if condition is matched
+print(a > 0)
+
+# #Print numbers where condition is matched
+
+print(a[a > 0])
