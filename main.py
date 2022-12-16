@@ -54,10 +54,10 @@
 # y = x.reshape((2, 2, 5, 5))
 # print(y)
 # print(y.dtype)
-
-import numpy as np
-
-a = np.random.randn(10)
+#
+# import numpy as np
+#
+# a = np.random.randn(10)
 # b = np.random.randn(10)
 #
 # print(a)
@@ -67,16 +67,48 @@ a = np.random.randn(10)
 # print(c)
 # c *= 2
 # print(c)
+import numpy as np
 
 # # Inverse array
-print(a)
-inverse = 1 / a
+# print(a)
+# inverse = 1 / a
+#
+# print(inverse)
+#
+# # # True false return if condition is matched
+# print(a > 0)
+#
+# # #Print numbers where condition is matched
+#
+# print(a[a > 0])
+#
+# x = np.array([1, 4, 2, 5, 7])
+# print(x[4])
+#
+# print(x[x > 3])
+#
+# print(x[[2, 1]])
+# print(x[[1, 2]])
+#
+# x = np.random.randn(10, 10)
+# print(x)
+# print(x[0][9])
+# print('Print odd rows')
+#
+# print(x[1:10: 2])
+#
+# print('Print 4 colums')
+#
+# print(x[::, 1:5])
+#
+# print('Print 4 colums and 4 rows')
+#
+# print(x[1:5, 1:5])
 
-print(inverse)
+print('print zeros surrounded by ones')
+x = np.ones((5, 5))
+print(x)
 
-# # True false return if condition is matched
-print(a > 0)
+x[1: -1, 1:-1] = 0
 
-# #Print numbers where condition is matched
-
-print(a[a > 0])
+print(x)
