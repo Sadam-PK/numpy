@@ -67,7 +67,6 @@
 # print(c)
 # c *= 2
 # print(c)
-import numpy as np
 
 # # Inverse array
 # print(a)
@@ -105,10 +104,21 @@ import numpy as np
 #
 # print(x[1:5, 1:5])
 
-print('print zeros surrounded by ones')
-x = np.ones((5, 5))
-print(x)
+# print('print zeros surrounded by ones')
+# x = np.ones((5, 5))
+# print(x)
+#
+# x[1: -1, 1:-1] = 0
+#
+# print(x)
 
-x[1: -1, 1:-1] = 0
-
-print(x)
+# import numpy as np
+#
+# x = np.array([10, 2, 5, 6, 7, 8])
+# y = np.array([2, 4, 2, 4, 8, 8])
+#
+# print(np.sqrt(x))
+#
+# print(np.power(x, 2))
+#
+# print(np.maximum(x, y))
