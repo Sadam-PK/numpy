@@ -112,8 +112,6 @@
 #
 # print(x)
 
-import numpy as np
-
 #
 # x = np.array([10, 2, 5, 6, 7, 8])
 # y = np.array([2, 4, 2, 4, 8, 8])
@@ -123,9 +121,23 @@ import numpy as np
 # print(np.power(x, 2))
 #
 # print(np.maximum(x, y))
-salary = np.array([10, 20, 0, 40])
-x = np.where(salary <= 10, 50, salary)
-print(x)
-
-x = np.where(salary <= 10, 'Not Okay', 'Okay')
-print(x)
+# salary = np.array([10, 20, 0, 40])
+# x = np.where(salary <= 10, 50, salary)
+# print(x)
+#
+# x = np.where(salary <= 10, 'Not Okay', 'Okay')
+# print(x)
+#
+# import numpy as np
+#
+# x = np.array([10, 10, 30, 20, 50, 60, 40])
+# print(x.mean())
+# print(x.cumsum())  ## adding next to sum
+# print(x.cumprod())
+# y = x > 10
+# print(y)
+#
+# print(y.any())
+#
+# # print(sorted(x))
+# print(np.unique(x))
