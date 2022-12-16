@@ -112,7 +112,8 @@
 #
 # print(x)
 
-# import numpy as np
+import numpy as np
+
 #
 # x = np.array([10, 2, 5, 6, 7, 8])
 # y = np.array([2, 4, 2, 4, 8, 8])
@@ -122,3 +123,9 @@
 # print(np.power(x, 2))
 #
 # print(np.maximum(x, y))
+salary = np.array([10, 20, 0, 40])
+x = np.where(salary <= 10, 50, salary)
+print(x)
+
+x = np.where(salary <= 10, 'Not Okay', 'Okay')
+print(x)
