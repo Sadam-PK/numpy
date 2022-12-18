@@ -67,6 +67,7 @@
 # print(c)
 # c *= 2
 # print(c)
+import numpy as np
 
 # # Inverse array
 # print(a)
@@ -141,3 +142,16 @@
 #
 # # print(sorted(x))
 # print(np.unique(x))
+
+x = [1, 3, 5, 7]
+y = [2, 4, 6, 8]
+
+np.save('testx', x)
+loadx = np.load('testx.npy')
+
+# print(loadx)
+
+np.savez('textxy', x=x, y=y)
+loadxy = np.load('textxy.npz')
+
+print(loadxy['x'])
