@@ -162,7 +162,17 @@
 # print(x.transpose())
 
 # # #------- Random number generator ---------
-# import numpy as np
+
 #
 # np.random.seed(3)
 # print(np.random.normal(size=(3, 3)))
+
+# import numpy as np
+#
+# x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+# y = x.reshape((2, 3, 3))
+# print(y)
+#
+# y = x.reshape((2, 3, -1))
+# print(y)
+# print(y.ravel())
