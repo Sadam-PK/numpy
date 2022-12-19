@@ -167,6 +167,8 @@
 # np.random.seed(3)
 # print(np.random.normal(size=(3, 3)))
 
+# # #------- Reshaping ---------
+
 # import numpy as np
 #
 # x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
@@ -176,3 +178,18 @@
 # y = x.reshape((2, 3, -1))
 # print(y)
 # print(y.ravel())
+
+# # #------- Concate ---------
+#
+# y = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+#
+# arr1 = np.array(y)
+# # print(arr1)
+# x = [[11, 22, 33], [44, 55, 66], [77, 88, 99]]
+#
+# arr2 = np.array(x)
+# # print(arr2)
+#
+# # print(np.concatenate((arr1, arr2)))
+# # print(np.concatenate((arr1, arr2), axis=0))
+# print(np.concatenate((arr1, arr2), axis=1))  # # for column wise concate
