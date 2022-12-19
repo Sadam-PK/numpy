@@ -193,3 +193,19 @@
 # # print(np.concatenate((arr1, arr2)))
 # # print(np.concatenate((arr1, arr2), axis=0))
 # print(np.concatenate((arr1, arr2), axis=1))  # # for column wise concate
+
+# # #------- split ---------
+
+#
+# x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+# s = np.split(x, [2, 5])  ## splits array at pos 2 and 5
+#
+# print(s)
+
+# # # #------- repeat ---------
+# x = np.array([1, 5, 7, 8])
+# r = np.repeat(x, 3)
+# print(r)
+#
+# t = np.tile(x, 2)
+# print(t)
