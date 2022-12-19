@@ -160,3 +160,9 @@
 # y = np.random.randn(2, 3)
 # # print(x.dot(y))
 # print(x.transpose())
+
+# # #------- Random number generator ---------
+# import numpy as np
+#
+# np.random.seed(3)
+# print(np.random.normal(size=(3, 3)))
